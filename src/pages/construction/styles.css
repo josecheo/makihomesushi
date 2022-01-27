@@ -1,0 +1,138 @@
+.pricipal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /* grid-template-columns: 1fr; */
+  height: 100vh;
+}
+.imgContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 50px;
+}
+.img {
+max-width: 700px;
+  max-height: 700px;
+  object-fit: contain;
+}
+.textContainer {
+  text-align: center;
+  padding: 0 50px;
+}
+
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .icono-social {
+    align-items: center;  
+    color: rgba(0, 0, 0, .3);
+    display: flex;  
+    height: 70px;
+    justify-content: center;
+    margin: 2px; 
+    text-decoration: none; 
+    transition-duration: .3s;
+    width: 70px;
+  }
+  
+  .redondo {
+    border-radius: 50%;
+  }
+  
+  .icono-social:hover {  
+    color: #fff;
+  }
+  
+  .sombra:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+  }
+  
+  #facebook:hover  {
+    background-color: #3b5998;
+  }
+  
+  #instagram:hover  {
+    background-color: #e548f3;
+  }
+  
+  #whatsapp:hover  {
+    background-color: #38f551;
+  }
+  
+  #youtube:hover  {
+    background-color: #e31010;
+  }
+  
+  .icono-social:active {
+    transform: scale(.9);
+  }
+  
+  /*** ESTILOS PLANTILLA ***/
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+ 
+  #contenedor-logo {
+    border-right: 3px solid black;
+    margin-right: 10px;
+    padding-right: 20px;
+    text-align: right;
+  }
+  
+  #logo-ntln{  
+    max-width: 100px;
+    height: auto;  
+  }
+  
+  #contenedor-texto {
+    display:flex;
+    flex-direction: column;
+    height:100px;
+    justify-content: space-around;
+    padding-left: 10px;
+  }
+  
+  #contenedor-texto h1 {
+    font-family: 'BenchNine', sans-serif;
+    font-size: 3em;
+    text-transform: capitalize;
+  }
+  
+  #contenedor-texto p {
+    font-family: 'BenchNine', sans-serif;
+    font-size: 1.5em;
+  }
+  
+  #contenedor-texto i{
+    padding: 5px;
+  }
+  
+  
+  .descripcion {
+    align-self: flex-end;
+    color: #6d5f5e;
+    font-family: 'Indie Flower';
+    font-size: 1.5em;
+    margin-left: 50px;
+    padding-bottom: 20px;
+  }
+  
+  .descripcion li {
+    list-style: none;
+  }
+  
+  .descripcion li::before {
+    content: "- ";
+  }
+  
+  /*** FIN ESTILOS PLANTILLA ***/
