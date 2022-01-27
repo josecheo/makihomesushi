@@ -1,7 +1,5 @@
 import React from "react";
-import Header from "../../components/header";
 import mant from "../../assets/webMantenim.svg";
-import logo from "../../assets/logonegro.svg";
 import "./styles.css";
 
 const Construction = () => {
